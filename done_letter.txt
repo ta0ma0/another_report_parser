@@ -1,0 +1,1 @@
+Script stored SPO disk data to DB, check it Dbeaver.
