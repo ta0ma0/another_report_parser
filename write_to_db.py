@@ -31,6 +31,7 @@ def create_connection():
 def write(connection, query, values):
     """Записывает данные в базу данных."""
     cursor = connection.cursor()
+    print(query, values)
     cursor.execute(query, (values))
     connection.commit()
     print("Данные успешно записаны в базу данных.")

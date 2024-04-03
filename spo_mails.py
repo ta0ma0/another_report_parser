@@ -111,4 +111,3 @@ def mail_grabber():
     mail.close()
     mail.logout()
 
-mail_grabber()

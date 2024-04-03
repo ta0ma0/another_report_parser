@@ -113,7 +113,9 @@ def extract_project_name(filename):
     """
     match = re.search(r'SPO\s+([\w-]+)\.', filename)
     if match:
-        return match.group(1)
+        pre_value = match.group(1)
+        value = pre_value.split('_')[0]
+        return value
     else:
         return None
 
