@@ -11,3 +11,15 @@ This is comprehensive solution for Linux servers monitoring.
 4. Localhost Grafana for build dashbords and alerts.
 
 ![Grafana](/images/grafana.png "Example")
+
+###Settings
+
+1. python -m venv venv
+2. source venv/bin/activate
+3. pip install mysql-connector-python
+
+###Usage
+
+```
+python spo_parser.py
+```
